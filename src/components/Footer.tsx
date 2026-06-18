@@ -5,7 +5,7 @@
 
 import React from 'react';
 import TalentriaLogo from './TalentriaLogo';
-import { ShieldCheck, Activity, BarChart2 } from 'lucide-react';
+import { Activity, BarChart2 } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -15,11 +15,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 border-b border-slate-900 pb-12 mb-8 items-start text-left">
         
         {/* Brand statement column */}
-        <div className="md:col-span-4 space-y-4">
+        <div className="md:col-span-5 space-y-4">
           <TalentriaLogo size="sm" showTagline={false} />
           
           <p className="text-xs text-slate-500 leading-relaxed max-w-sm">
-            Especialistas internacionales en la administración estratégica del talento laboral, optimización procesal de remuneraciones, diagnóstico de clima y fomento de inclusión organizacional.
+            Especialistas en talento humano, capacitación y consultoría organizacional, impulsando el desarrollo de personas y la evolución de las empresas a través de soluciones estratégicas e innovadoras.
           </p>
 
           <div className="flex gap-1.5 flex-wrap items-center">
@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
 
         {/* Directory columns */}
-        <div className="md:col-span-2 space-y-4">
+        <div className="md:col-span-3 space-y-4">
           <h4 className="text-xs font-black text-slate-200 uppercase tracking-widest">Alineaciones</h4>
           <ul className="text-xs space-y-2.5 font-semibold text-slate-500">
             <li><a href="#inicio" className="hover:text-white transition-colors">Corporativo</a></li>
@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
 
         {/* Solutions links */}
-        <div className="md:col-span-3 space-y-4">
+        <div className="md:col-span-4 space-y-4">
           <h4 className="text-xs font-black text-slate-200 uppercase tracking-widest">Soluciones Clave</h4>
           <ul className="text-xs space-y-2.5 font-semibold text-slate-500">
             <li><a href="#soluciones" className="hover:text-white transition-colors">Talentria 360 & Desempeño</a></li>
@@ -56,18 +56,6 @@ export default function Footer() {
             <li><a href="#soluciones" className="hover:text-white transition-colors">Formación Corporativa Especializada</a></li>
             <li><a href="#soluciones" className="hover:text-white transition-colors">Programa SER – Cultura Inclusiva</a></li>
           </ul>
-        </div>
-
-        {/* Office details */}
-        <div className="md:col-span-3 space-y-4">
-          <h4 className="text-xs font-black text-slate-200 uppercase tracking-widest">Presencia Directa</h4>
-          <p className="text-xs text-slate-500 leading-relaxed">
-            <strong>Guayaquil Centro:</strong> Av. de las Américas & Calle Novena, Edificio Corporativo Talentria, Guayas, Ecuador.
-          </p>
-          <div className="flex items-center gap-2 text-xs text-slate-500 font-bold">
-            <ShieldCheck className="w-4 h-4 text-brand-green" />
-            <span>IESS & SUT Compliance Certificado</span>
-          </div>
         </div>
 
       </div>
