@@ -1,0 +1,6 @@
+{
+  "name": "Talentria - Consultoría de Talento y Soluciones HR",
+  "description": "Plataforma de gestión estratégica del talento, soluciones HR SaaS, clima laboral y capacitación corporativa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
